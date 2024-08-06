@@ -1,0 +1,31 @@
+.button {
+    height: 60px;
+    padding: 0 40px 0  40px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(0, 196, 112);
+
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;  
+}
+
+.section-cta__content .button {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: rgb(2, 171, 98);
+}
+
+.button:focus {
+    outline: none;
+    background: rgb(2, 151, 87);
+    
+}

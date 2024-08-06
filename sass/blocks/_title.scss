@@ -1,0 +1,22 @@
+.title {
+    color: rgb(21, 215, 132);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    /*Mobile*/
+    @media(max-width: 899px) {
+        font-size: 14px;
+    }
+}
+
+
+.title--white {
+    color: white;
+}
+
+.subtitle--white {
+    color: white;
+}
